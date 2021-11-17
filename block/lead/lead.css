@@ -1,0 +1,28 @@
+.lead {
+    background-image: url(../../images/shtroblenie-sten-1\ 1.jpg);
+    max-width: 1920px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(320px, 1fr));
+    align-content: space-between;
+    margin: auto;
+}
+
+.lead::before {
+    background-color: #2A2C2F;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: "";
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 713px) {
+    .lead {
+        grid-template-columns: none;
+    }
+}

@@ -1,0 +1,31 @@
+.lead__tagline {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 60px 0 0 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .lead__tagline {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 853px) {
+    .lead__tagline {
+        font-size: 28px;
+        line-height: 38px;
+        margin: 35px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 713px) {
+    .lead__tagline {
+        font-size: 19px;
+        line-height: 25px;
+        margin: 20px 0 0 0;
+    }
+}

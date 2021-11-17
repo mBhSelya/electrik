@@ -1,0 +1,41 @@
+.card__name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 50px;
+    padding: 0;
+    margin: 25px;
+    color: white;
+    font-family: 'Russo-One', Arial, sans-serif;
+    text-align: start;
+}
+
+@media screen and (max-width: 1000px) {
+    .card__name {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 853px) {
+    .card__name {
+        font-size: 25px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 713px) {
+    .card__name {
+        font-size: 19px;
+        line-height: 20px;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .card__name {
+        font-size: 15px;
+        line-height: 20px;
+        margin: 15px;
+    }
+}

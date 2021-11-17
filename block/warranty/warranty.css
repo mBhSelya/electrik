@@ -1,0 +1,16 @@
+.warranty {
+    background-color: #E3E3E3;
+    padding: 40px 50px;
+}
+
+@media screen and (max-width: 853px) {
+    .warranty {
+        padding: 20px 20px;
+    }
+}
+
+@media screen and (max-width: 713px) {
+    .warranty {
+        padding: 10px 15px;
+    }
+}

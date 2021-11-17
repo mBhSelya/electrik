@@ -1,0 +1,27 @@
+.warranty__table {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(160px, 1fr));
+    margin: 0;
+    padding: 0;
+    gap: 75px 85px;
+}
+
+@media screen and (max-width: 1000px) {
+    .warranty__table {
+        gap: 45px 65px;
+    }
+}
+
+@media screen and (max-width: 853px) {
+    .warranty__table {
+        gap: 35px 50px;
+    }
+}
+
+@media screen and (max-width: 713px) {
+    .warranty__table {
+        gap: 20px;
+        grid-template-columns: none;
+        justify-content: center;
+    }
+}

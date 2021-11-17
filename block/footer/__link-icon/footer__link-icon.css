@@ -1,0 +1,20 @@
+.footer__link-icon {
+    height: 50px;
+    width: 50px;
+    margin: 0 15px 0 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer__link-icon {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+@media screen and (max-width: 713px) {
+    .footer__link-icon {
+        height: 20px;
+        width: 20px;
+        margin: 0 8px 0 0;
+    }
+}

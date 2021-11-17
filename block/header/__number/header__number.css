@@ -1,0 +1,14 @@
+.header__number {
+    line-height: 36px;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 713px) {
+    .header__number {
+        line-height: 30px;
+        font-size: 23px;
+    }
+}

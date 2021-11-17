@@ -1,0 +1,11 @@
+.footer__link-social {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.footer__link-social:hover {
+    opacity: 0.5;
+}

@@ -1,0 +1,11 @@
+.lead__title-text {
+    z-index: 1;
+    margin: 0 0 53px 53px;
+}
+
+@media screen and (max-width: 713px) {
+    .lead__title-text {
+        margin: 15px 10px 25px;
+        text-align: center;
+    }
+}

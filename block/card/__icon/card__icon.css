@@ -1,0 +1,14 @@
+.card__icon {
+    width: 35px;
+    height: 35px;
+    margin: 0 25px 0 0;
+    transform: rotate(0);
+    transition: transform 0.3s ease;
+}
+
+@media screen and (max-width: 713px) {
+    .card__icon {
+        width: 25px;
+        height: 25px;
+    }
+}
